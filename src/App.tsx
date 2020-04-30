@@ -19,12 +19,12 @@ const App: React.FC = () => {
           <RecipeCard />
         </div>
         <div className="icons">
+          <Fab color="secondary" aria-label="edit">
+              <CloseIcon />
+          </Fab> 
             <Fab color="primary" aria-label="add">
                 <FavoriteIcon />
             </Fab>
-            <Fab color="secondary" aria-label="edit">
-                <CloseIcon />
-            </Fab> 
         </div>   
         <div className="navigator"><BottomNavigator /></div>
       </div>
